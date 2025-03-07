@@ -1373,7 +1373,8 @@ checkPassword("short"); ]
 </html>
 [บันทึกโค้ด ที่นี่]
 ```
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/46f1ed8b-ca0c-4256-82fe-62b9040e585b)
+
 
 [รูปผลการทดลองที่ 3.2.3]
 
