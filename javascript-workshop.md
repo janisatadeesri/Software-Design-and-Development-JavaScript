@@ -137,7 +137,7 @@ JavaScript สามารถเพิ่มลงในเว็บเพจไ
 <!-- External JavaScript -->
 
 <script src="script.js"></script>
-
+```
 [รูปผลการทดลองที่ 1]
 ![image](https://github.com/user-attachments/assets/3845e883-f42e-4b39-a1f7-39f41b37fecb)
 ![image](https://github.com/user-attachments/assets/4b20d0e0-04d8-4f51-938e-c1e9b4911490)
