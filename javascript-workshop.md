@@ -139,8 +139,9 @@ JavaScript สามารถเพิ่มลงในเว็บเพจไ
 <script src="script.js"></script>
 
 [รูปผลการทดลองที่ 1]
-![Screenshot 2025-03-07 135644](https://github.com/user-attachments/assets/8293b9f4-a325-4ef8-932f-993932aa021a)
-![Screenshot 2025-03-07 135706](https://github.com/user-attachments/assets/63b35ba9-7c5b-4d29-b5a8-72432eba9762)
+![Screenshot 2025-03-07 135706](https://github.com/user-attachments/assets/b5d8efd9-9cbc-40be-99bf-afc1bd4d4d56)
+![Screenshot 2025-03-07 135706](https://github.com/user-attachments/assets/34c7d4a6-79af-42da-81ef-ed5682046370)
+
 
 ## การทดลองที่ 2: พื้นฐาน JavaScript
 ### 2.1 การประกาศตัวแปรและชนิดข้อมูล
