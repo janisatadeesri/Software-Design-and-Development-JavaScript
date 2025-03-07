@@ -72,9 +72,76 @@ JavaScript สามารถเพิ่มลงในเว็บเพจไ
 ### บันทึกผลการทดลอง 
 ```html
 [บันทึกโค้ด ที่นี่]
-```
+<!-- Inline JavaScript -->
+
+<button onclick="alert('ชื่อของคุณคือ: กิตติกาญจน์ แก้วนวล')">ปุ่มที่ 1</button>
+
+
+
+<!-- Internal JavaScript -->
+
+<button id="btn2">ปุ่มที่ 2</button>
+
+
+
+<!-- External JavaScript -->
+
+<button id="btn3" onclick="hello3();">ปุ่มที่ 3</button>
+
+
+
+<br><br>
+
+
+
+<!-- กล่องข้อความและปุ่มสำหรับแสดงผล -->
+
+<input type="text" id="textInput" placeholder="กรอกข้อความที่นี่">
+
+<button onclick="showText()">แสดงข้อความ</button>
+
+<p id="outputText"></p>
+
+
+
+<!-- Internal JavaScript -->
+
+<script>
+
+    // ปุ่มที่ 2: แสดงวันที่ปัจจุบัน
+
+    document.getElementById('btn2').onclick = function() {
+
+        let today = new Date();
+
+        alert('วันที่ปัจจุบันคือ: ' + today.toLocaleDateString('th-TH'));
+
+    };
+
+
+
+    // ฟังก์ชันแสดงข้อความจาก input
+
+    function showText() {
+
+        let text = document.getElementById('textInput').value;
+
+        document.getElementById('outputText').innerText = 'ข้อความที่คุณป้อน: ' + text;
+
+    }
+
+</script>
+
+
+
+<!-- External JavaScript -->
+
+<script src="script.js"></script>
+
 [รูปผลการทดลองที่ 1]
-  
+  ![Screenshot 2025-03-07 135644](https://github.com/user-attachments/assets/22922be0-0ada-4861-b11c-0899c351f235)
+  ![Screenshot 2025-03-07 135706](https://github.com/user-attachments/assets/645cd594-810b-49d1-8af2-e920162b4a05)
+
 ## การทดลองที่ 2: พื้นฐาน JavaScript
 ### 2.1 การประกาศตัวแปรและชนิดข้อมูล
 
