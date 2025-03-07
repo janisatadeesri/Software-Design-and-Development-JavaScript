@@ -197,8 +197,35 @@ let person = {
 
 ### บันทึกผลการทดลอง 2.1
 ```html
+let studentId = "67030033";      
+let studentName = "กิตติกาญจน์";     
+let midtermScore = 90;        
+let finalScore = 90;           
+
+const studentInfo = {
+    id: studentId,             
+    name: studentName,        
+    major: "ครุศาสตร์",  
+    gpa: 4.00                  
+};
+
+
+studentName = "กิตติกาญจน์"; 
+
+
+console.log(studentInfo);
+console.log("รหัสนักศึกษา: " + studentInfo.id);
+console.log("ชื่อ: " + studentInfo.name);
+console.log("สาขาวิชา: " + studentInfo.major);
+console.log("เกรดเฉลี่ย: " + studentInfo.gpa);
+
+
+let totalScore = midtermScore + finalScore;
+console.log("คะแนนรวม: " + totalScore);
 [บันทึกโค้ด ที่นี่]
 ```
+![image](https://github.com/user-attachments/assets/5a0fd538-d7d6-44f0-8cc3-3b7c8f541414)
+
 [รูปผลการทดลองที่ 2.1]
 
 
